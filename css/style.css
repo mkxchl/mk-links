@@ -9982,3 +9982,44 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+/* Custom Css */
+.mk {
+  background: transparent;
+}
+
+.mk-bod {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: inset 3px 3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
+.mk-head {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.mk-x {
+  padding: 10px 20px;
+  border-radius: 10px;
+  /* font-size: 18px; */
+  /* width: 250px; */
+}
+.uil {
+  position: relative;
+  right: 10px;
+}
+.mk-tl {
+  position: relative;
+  right: -20px;
+  font-weight: bold;
+}
+.mk-x:hover {
+  background: rgba(255, 255, 255, 0.186);
+  color: rgba(0, 0, 0, 0.567);
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.5s;
+  border-radius: 15px;
+  box-shadow: inset -3px -3px 7px #ffffff, 3px 3px 5px #ceced1;
+}
