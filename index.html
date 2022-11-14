@@ -1,25 +1,5 @@
 <!DOCTYPE html>
-<!-- 
-  Authorized : Mk Codex 
-  Designed : Mk Codex
-  Support by Boostrap 
-  Animation : On 
-  Responsive Website Portfolio
-
-  // 
-
-****     **** **           *******                   
-/**/**   **/**/**          /**////**                  
-/**//** ** /**/**  **      /**    /**  *****  **    **
-/** //***  /**/** **       /**    /** **///**/**   /**
-/**  //*   /**/****        /**    /**/*******//** /** 
-/**   /    /**/**/**       /**    ** /**////  //****  
-/**        /**/**//**      /*******  //******  //**   
-//         // //  //       ///////    //////    //    
-
-  //
--->
-<html lang="en">
+<html lang="in">
   <head>
     <meta charset="utf-8" />
     <title>Mk - Links</title>
@@ -34,7 +14,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="https://mk-links.netlify.app/img/logo.jpg" />
 
     <!-- Favicon -->
-    <link href="https://mk-links.netlify.app/img/logo.jpg" rel="icon" />
+    <link href="img/logo.jpg" rel="icon" />
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
@@ -50,7 +30,7 @@
     <link href="css/style.css" rel="stylesheet" />
   </head>
 
-  <body data-spy="scroll" data-target=".navbar" data-offset="51">
+  <body data-spy="scroll" data-target=".navbar" data-offset="51" onload="init()">
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
       <a href="/" class="navbar-brand ml-lg-3">
@@ -62,9 +42,10 @@
       <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
         <div class="navbar-nav m-auto py-0">
           <a href="#home" class="nav-item nav-link active">Home</a>
-          <a href="#about" class="nav-item nav-link">About</a>
+          <a href="#feat" class="nav-item nav-link">Feature</a>
           <a href="#skill" class="nav-item nav-link">Skill</a>
           <a href="#blog" class="nav-item nav-link">Blog</a>
+          <a href="#about" class="nav-item nav-link">About</a>
           <a href="#contact" class="nav-item nav-link">Contact</a>
         </div>
         <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
@@ -103,7 +84,7 @@
             <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
             <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
             <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-              <a href="#" class="btn btn-outline-light mr-5" onclick="location.href='https://chlxz.000webhostapp.com/chatapps/'">Forum Chat</a>
+              <a href="#" class="btn btn-outline-light mr-5" onclick="openFullscreen()">Fullscreen</a>
               <button type="button" class="btn-play" onClick="playMyAudio()">
                 <span></span>
               </button>
@@ -137,7 +118,7 @@
                 <h6><b>Degree:</b> <span class="text-secondary">Developer or Programmer</span></h6>
               </div>
               <div class="col-sm-6 py-2">
-                <h6><b>From in:</b> <span class="text-secondary">Sulawesi Selatan</span></h6>
+                <h6><b>Stay in:</b> <span class="text-secondary">Sulawesi Selatan</span></h6>
               </div>
               <div class="col-sm-6 py-2">
                 <h6><b>Experience:</b> <span class="text-secondary">5 Years</span></h6>
@@ -183,7 +164,7 @@
               <div class="position-relative mb-4">
                 <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
                 <h5 class="font-weight-bold mb-1">Gray Hacker</h5>
-                <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
+                <p class="mb-2">| <strong>Indonesian - wikipedia</strong> |</p>
                 <p>
                   They will perform hacking actions in the same way as black hat hackers i.e. without the permission of the system owner. In carrying out their actions, this type of hacker will launch a number of attacks on the company's
                   server or website.
@@ -327,6 +308,44 @@
       </div>
     </div>
     <!-- Services End -->
+    <!-- Features Start -->
+    <div class="container-fluid pt-5" id="feat">
+      <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+          <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">Features</h1>
+          <h1 class="position-absolute text-uppercase text-primary">Features</h1>
+        </div>
+        <div class="row mb-3 mk-bod">
+          <h3 class="mb-4 mk-head">Features Menu</h3>
+          <div class="col-sm-6 py-2 mk-x">
+            <h6 class="mk-tl"><i class="uil fas fa-gamepad"></i>Games</h6>
+          </div>
+          <div class="col-sm-6 py-2 mk-x">
+            <h6 class="mk-tl"><i class="uil fas fa-music"></i>Text Spech</h6>
+          </div>
+          <div class="col-sm-6 py-2 mk-x">
+            <h6 class="mk-tl"><i class="uil fas fa-calculator"></i>Calculator</h6>
+          </div>
+          <div class="col-sm-6 py-2 mk-x">
+            <h6 class="mk-tl"><i class="uil fas fa-question-circle"></i>Quiz</h6>
+          </div>
+          <div class="col-sm-6 py-2 mk-x">
+            <h6 class="mk-tl"><i class="uil fas fa-pencil-ruler"></i>Drawing</h6>
+          </div>
+          <div class="col-sm-6 py-2 mk-x">
+            <h6 class="mk-tl"><i class="uil fas fa-images"></i>Image Edit</h6>
+          </div>
+          <h3 class="mb-4 mk-head">Setting</h3>
+          <div class="col-sm-6 py-2 mk-x">
+            <h6 class="mk-tl"><i class="uil fas fa-user-astronaut"></i>Marchell Kevandra</h6>
+          </div>
+          <div class="col-sm-6 py-2 mk-x">
+            <h6 class="mk-tl"><i class="uil fas fa-arrow-alt-circle-left"></i>Back</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Feature End -->
 
     <!-- Portfolio Start -->
     <div class="container-fluid pt-5 pb-3" id="portfolio">
@@ -463,7 +482,7 @@
               </div>
             </div>
             <h5 class="font-weight-medium mb-4">Official Website Editor Miring Squad Revolution</h5>
-            <a class="btn btn-sm btn-outline-primary py-2" onclick="location.href='https://ems-links.netlify.app/'">Go to here</a>
+            <a class="btn btn-sm btn-outline-primary py-2" href="" onclick="location.href='https://ems-links.netlify.app/'">Go to here</a>
           </div>
           <div class="col-lg-4 mb-5">
             <div class="position-relative mb-4">
@@ -474,7 +493,7 @@
               </div>
             </div>
             <h5 class="font-weight-medium mb-4">Apps Modded By ChellXz</h5>
-            <a class="btn btn-sm btn-outline-primary py-2" onclick="location.href='https://appscrck.netlify.app/'">Go to here</a>
+            <a class="btn btn-sm btn-outline-primary py-2" href="" onclick="location.href='https://chellxz.ml/'">Go to here</a>
           </div>
         </div>
       </div>
