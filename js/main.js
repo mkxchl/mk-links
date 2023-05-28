@@ -199,3 +199,21 @@ document.addEventListener("touchend", dragStop);
 
 sheetOverlay.addEventListener("click", hideBottomSheet);
 showModalBtn.addEventListener("click", showBottomSheet);
+
+/// Function Contact - Links ///
+
+function DscX() {
+  window.location.replace("https://discord.gg/MarchellKevandra");
+}
+function IntX() {
+  window.location.replace("https://instagram.com/chellgnzxz_");
+}
+function FbX() {
+  window.location.replace("https://facebook.com/marchel.ganz");
+}
+function TtX() {
+  window.location.replace("https://tiktok.com/mkxchl");
+}
+function TlX() {
+  window.location.replace("https://t.me/Marchell_Junior");
+}
