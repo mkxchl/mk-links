@@ -30,7 +30,6 @@
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet" />
   </head>
-
   <body data-spy="scroll" data-target=".navbar" data-offset="51" onload="init()">
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
@@ -43,10 +42,10 @@
       <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
         <div class="navbar-nav m-auto py-0">
           <a href="#home" class="nav-item nav-link active"><i class="bx bx-home-alt-2 mk-nav-icon"></i>Home</a>
-          <a href="#skill" class="nav-item nav-link"><i class="bx bx-code"></i>Skill</a>
           <a href="#blog" class="nav-item nav-link"><i class="bx bx-link-alt"></i>Blog</a>
+          <a href="#skill" class="nav-item nav-link"><i class="bx bx-code"></i>Skill</a>
           <a href="#about" class="nav-item nav-link"><i class="bx bxs-user-check"></i>About</a>
-          <a href="#all" class="nav-item nav-link"><i class="bx bx-note"></i>All Page</a>
+          <!-- <a href="#all" class="nav-item nav-link show-modal"><i class="bx bx-cog"></i>Setting</a> -->
         </div>
         <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
       </div>
@@ -129,7 +128,7 @@
                 <h6><b>Freelance:</b> <span class="text-secondary">Cyber Security</span></h6>
               </div>
             </div> -->
-            <a href="#" class="w-100 btn btn-outline-mkblue mr-4" onclick="location.href='https://instagram.com/chellgnzxz_'">Follow Me</a>
+            <a class="w-100 btn btn-outline-mkblue mr-5 show-modal">Follow Me</a>
             <!-- <a href="" class="btn btn-outline-primary">Learn More</a> -->
           </div>
         </div>
@@ -769,7 +768,37 @@
       </div>
     </div> -->
     <!-- Contact End -->
-
+    <!-- Modall Bottom -->
+    <div class="bottom-sheet">
+      <div class="sheet-overlay"></div>
+      <div class="content">
+        <div class="header">
+          <div class="drag-icon"><span></span></div>
+        </div>
+        <div class="body">
+        <h2>Follow Me</h2>
+          <div class="MkBox">
+            <div class="MkBoxList" onclick="IntX()">
+              <i class='bx bxl-instagram' ></i>
+              <h5>Instagram</h5>
+            </div>
+            <div class="MkBoxList" onclick="FbX()">
+              <i class='bx bxl-facebook' ></i>
+              <h5>Facebook</h5>
+            </div>
+            <div class="MkBoxList" onclick="TlX()">
+              <i class='bx bxl-telegram' ></i>
+              <h5>Telegram</h5>
+            </div>
+            <div class="MkBoxList" onclick="TtX()">
+              <i class='bx bxl-tiktok' ></i>
+              <h5>Tiktok</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modall -->
     <!-- Footer Start -->
     <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
       <div class="container text-center py-5">
@@ -817,6 +846,7 @@
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://ems-links.netlify.app/assets/js/index.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
