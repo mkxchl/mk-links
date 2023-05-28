@@ -21,6 +21,7 @@
 
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
@@ -41,11 +42,11 @@
       </button>
       <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
         <div class="navbar-nav m-auto py-0">
-          <a href="#home" class="nav-item nav-link active">Home</a>
-          <a href="#skill" class="nav-item nav-link">Skill</a>
-          <a href="#blog" class="nav-item nav-link">Blog</a>
-          <a href="#about" class="nav-item nav-link">About</a>
-          <a href="#contact" class="nav-item nav-link">Contact</a>
+          <a href="#home" class="nav-item nav-link active"><i class="bx bx-home-alt-2 mk-nav-icon"></i>Home</a>
+          <a href="#skill" class="nav-item nav-link"><i class="bx bx-code"></i>Skill</a>
+          <a href="#blog" class="nav-item nav-link"><i class="bx bx-link-alt"></i>Blog</a>
+          <a href="#about" class="nav-item nav-link"><i class="bx bxs-user-check"></i>About</a>
+          <a href="#all" class="nav-item nav-link"><i class="bx bx-note"></i>All Page</a>
         </div>
         <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
       </div>
@@ -69,29 +70,29 @@
       </div>
     </div>
     <!-- Video Modal End -->
+
     <!-- Header Start -->
-    <div class="container-fluid bg-primary bg-mk d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh">
+    <div class="container-fluid bg-mk d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-            <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/logo.jpg" alt="MK - Avatar" />
+            <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/logo.jpg" alt="" />
           </div>
           <div class="col-lg-7 text-center text-lg-left">
-            <!-- <h3 class="text-white font-weight-normal mb-3">I'm</h3> -->
-            <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff">Marchell Kevandra</h1>
-            <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
-            <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
-            <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-              <a href="#" class="btn btn-outline-light mr-5" onclick="location.href='https://ems-links.netlify.app/menja/'">Games</a>
+            <h1 class="display-3 text-uppercase text-primary mb-2 mk-fullname">Marchell Kevandra</h1>
+            <h1 class="typed-text-output d-inline font-weight-lighter text-mkblue"></h1>
+            <div class="typed-text d-none ">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
+            <!-- <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+              <a href="#" class="btn btn-outline-dark mr-5" onclick="init()">Fullscreen</a>
               <button type="button" class="btn-play" onClick="playMyAudio()">
                 <span></span>
               </button>
               <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block" onClick="playMyAudio()">Play Music</h5>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
-    </div>
+    </div> 
     <!-- Header End -->
 
     <!-- About Start -->
@@ -103,23 +104,23 @@
         </div>
         <div class="row align-items-center">
           <div class="col-lg-5 pb-4 pb-lg-0">
-            <img class="img-fluid rounded w-100" src="https://ems-links.netlify.app/assets/images/mk-anime-1.jpg" alt="" />
+            <img class="img-fluid rounded w-100" src="img/Logo-mnk.png" alt="" />
           </div>
           <div class="col-lg-7">
-            <h3 class="mb-4">UI/UX Designer & Web Developer</h3>
-            <p><b>Hello all,</b> welcome to my official website, here are some of my identities that are not fully displayed because there is my personal identity</p>
-            <div class="row mb-3">
+            <h3 class="mb-4">About Me</h3>
+            <p><b>Marchel Kevandra </b> Welcome to my official website, here are some of my identities that are not fully displayed because there is my personal identity</p>
+            <!-- <div class="row mb-3">
               <div class="col-sm-6 py-2">
-                <h6><b>Name:</b> <span class="text-secondary">Marchell Nathan Kevandra</span></h6>
+                <h6><b>Name :</b> <span class="text-secondary">Marchell Nathan Kevandra</span></h6>
               </div>
               <div class="col-sm-6 py-2">
-                <h6><b>Degree:</b> <span class="text-secondary">Developer or Programmer</span></h6>
+                <h6><b>Degree :</b> <span class="text-secondary">Developer or Programmer</span></h6>
               </div>
               <div class="col-sm-6 py-2">
-                <h6><b>Stay in:</b> <span class="text-secondary">Sulawesi Selatan</span></h6>
+                <h6><b>From :</b> <span class="text-secondary">Jakarta, Indonesian</span></h6>
               </div>
               <div class="col-sm-6 py-2">
-                <h6><b>Experience:</b> <span class="text-secondary">5 Years</span></h6>
+                <h6><b>Experience :</b> <span class="text-secondary">5 Years</span></h6>
               </div>
               <div class="col-sm-6 py-2">
                 <h6><b>Email:</b> <span class="text-secondary">mkxz@my.id.com</span></h6>
@@ -127,8 +128,8 @@
               <div class="col-sm-6 py-2">
                 <h6><b>Freelance:</b> <span class="text-secondary">Cyber Security</span></h6>
               </div>
-            </div>
-            <a href="#" class="btn btn-outline-primary mr-4" onclick="location.href='https://instagram.com/chellgnzxz_'">Follow Me</a>
+            </div> -->
+            <a href="#" class="w-100 btn btn-outline-mkblue mr-4" onclick="location.href='https://instagram.com/chellgnzxz_'">Follow Me</a>
             <!-- <a href="" class="btn btn-outline-primary">Learn More</a> -->
           </div>
         </div>
@@ -148,35 +149,22 @@
             <h3 class="mb-4">My Education</h3>
             <div class="border-left border-primary pt-2 pl-4 ml-2">
               <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
-                <h5 class="font-weight-bold mb-1">Front End Developer</h5>
-                <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
-                <p><b>Front End</b> what users see on the display of a website. While the back end is a behind the scenes system that processes databases and servers.</p>
-              </div>
-              <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
-                <h5 class="font-weight-bold mb-1">Back End Developerr</h5>
-                <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
-                <p><b>Back End</b> everything related to servers (eg on the site or cloud) and databases. They're the engines working behind the scenes, all of which the end user doesn't see or interact with directly, but that powers what's happening.</p>
-              </div>
-              <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
+                <i class="far fa-radio-circle text-primary position-absolute" style="top: 2px; left: -33px"></i>
                 <h5 class="font-weight-bold mb-1">White Hacker</h5>
                 <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
                 <p><b>White hacker</b> is a term that refers to IT experts who have specialist skills in the field of cyber security as well as computer security.</p>
               </div>
               <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
+                <i class="far fa-radio-circle text-primary position-absolute" style="top: 2px; left: -33px"></i>
                 <h5 class="font-weight-bold mb-1">Black Hacker</h5>
-                <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
+                <p3 class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p3
                 <p><b>Black Hacker</b> is a hacker who breaks through the security system of a computer network, be it to steal data, leak data or damage the data of a program.</p>
               </div>
               <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
+                <i class="far fa-radio-circle text-primary position-absolute" style="top: 2px; left: -33px"></i>
                 <h5 class="font-weight-bold mb-1">Gray Hacker</h5>
                 <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
                 <p>
-                  <b>Gray Hacker</b>
                   They will perform hacking actions in the same way as black hat hackers i.e. without the permission of the system owner. In carrying out their actions, this type of hacker will launch a number of attacks on the company's
                   server or website.
                 </p>
@@ -187,19 +175,7 @@
             <h3 class="mb-4">My Expericence</h3>
             <div class="border-left border-primary pt-2 pl-4 ml-2">
               <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
-                <h5 class="font-weight-bold mb-1">Social Engineering</h5>
-                <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
-                <p><b>Social Engineering</b> the act of manipulating someone by taking advantage of their mistake to provide confidential data or information. In carrying out their actions, perpetrators of human hacking crimes usually disguise themselves as authorities, so that victims want to provide valuable data to perpetrators.</p>
-              </div>
-              <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
-                <h5 class="font-weight-bold mb-1">Data Analyst</h5>
-                <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
-                <p><b>Data Analyst</b> a person who researches and analyzes information using data analysis tools.</p>
-              </div>
-              <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
+                <i class="far fa-radio-circle text-primary position-absolute" style="top: 2px; left: -33px"></i>
                 <h5 class="font-weight-bold mb-1">Bug Bounty</h5>
                 <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
                 <p>
@@ -208,13 +184,13 @@
                 </p>
               </div>
               <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
+                <i class="far fa-radio-circle text-primary position-absolute" style="top: 2px; left: -33px"></i>
                 <h5 class="font-weight-bold mb-1">Dorking</h5>
                 <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
                 <p><b>Dork</b> itself means an action to enter keywords on Google search engines. The goal is to find a security loophole for a website to hack. The technique is known as Dorking.</p>
               </div>
               <div class="position-relative mb-4">
-                <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px"></i>
+                <i class="far fa-radio-circle text-primary position-absolute" style="top: 2px; left: -33px"></i>
                 <h5 class="font-weight-bold mb-1">Sql Injection</h5>
                 <p class="mb-2">| <strong>Indonesian - Wikipedia</strong> |</p>
                 <p>
@@ -244,7 +220,7 @@
                 <h6 class="font-weight-bold">95%</h6>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-mkblue" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="skill mb-4">
@@ -253,7 +229,7 @@
                 <h6 class="font-weight-bold">85%</h6>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-mkblue" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="skill mb-4">
@@ -262,7 +238,7 @@
                 <h6 class="font-weight-bold">90%</h6>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-mkblue" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
@@ -273,7 +249,7 @@
                 <h6 class="font-weight-bold">90%</h6>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-mkblue" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="skill mb-4">
@@ -282,7 +258,7 @@
                 <h6 class="font-weight-bold">95%</h6>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-mkblue" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
             <div class="skill mb-4">
@@ -291,7 +267,7 @@
                 <h6 class="font-weight-bold">85%</h6>
               </div>
               <div class="progress">
-                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-mkblue" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </div>
           </div>
@@ -301,7 +277,7 @@
     <!-- Skill End -->
 
     <!-- Services Start -->
-    <div class="container-fluid pt-5" id="service">
+    <!-- <div class="container-fluid pt-5" id="service">
       <div class="container">
         <div class="position-relative d-flex align-items-center justify-content-center">
           <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">Service</h1>
@@ -329,7 +305,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Services End -->
     <!-- Features Start -->
     <!-- Coming soon Update Landing Page     -->
@@ -392,9 +368,9 @@
           <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
             <div class="position-relative overflow-hidden mb-2">
               <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="" />
-              <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+              <div class="portfolio-btn d-flex align-items-center justify-content-center">
                 <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                  <i class="fa fa-plus text-mkblue" style="font-size: 60px"></i>
                 </a>
               </div>
             </div>
@@ -402,9 +378,9 @@
           <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
             <div class="position-relative overflow-hidden mb-2">
               <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="" />
-              <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+              <div class="portfolio-btn d-flex align-items-center justify-content-center">
                 <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                  <i class="fa fa-plus text-mkblue" style="font-size: 60px"></i>
                 </a>
               </div>
             </div>
@@ -412,9 +388,9 @@
           <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
             <div class="position-relative overflow-hidden mb-2">
               <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="" />
-              <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+              <div class="portfolio-btn d-flex align-items-center justify-content-center">
                 <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                  <i class="fa fa-plus text-mkblue" style="font-size: 60px"></i>
                 </a>
               </div>
             </div>
@@ -422,9 +398,9 @@
           <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
             <div class="position-relative overflow-hidden mb-2">
               <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="" />
-              <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+              <div class="portfolio-btn d-flex align-items-center justify-content-center">
                 <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                  <i class="fa fa-plus text-mkblue" style="font-size: 60px"></i>
                 </a>
               </div>
             </div>
@@ -432,9 +408,9 @@
           <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
             <div class="position-relative overflow-hidden mb-2">
               <img class="img-fluid rounded w-100" src="img/mk-port.png" alt="" />
-              <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+              <div class="portfolio-btn d-flex align-items-center justify-content-center">
                 <a href="img/mk-port.png" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                  <i class="fa fa-plus text-mkblue" style="font-size: 60px"></i>
                 </a>
               </div>
             </div>
@@ -442,9 +418,19 @@
           <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
             <div class="position-relative overflow-hidden mb-2">
               <img class="img-fluid rounded w-100" src="img/0303.png" alt="" />
-              <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+              <div class="portfolio-btn d-flex align-items-center justify-content-center">
                 <a href="img/0303.png" data-lightbox="portfolio">
-                  <i class="fa fa-plus text-white" style="font-size: 60px"></i>
+                  <i class="fa fa-plus text-mkblue" style="font-size: 60px"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+            <div class="position-relative overflow-hidden mb-2">
+              <img class="img-fluid rounded w-100" src="img/xch.jpg" alt="" />
+              <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                <a href="img/xch.jpg" data-lightbox="portfolio">
+                  <i class="fa fa-plus text-mkblue" style="font-size: 60px"></i>
                 </a>
               </div>
             </div>
@@ -465,19 +451,19 @@
           <div class="col-lg-8">
             <div class="owl-carousel testimonial-carousel">
               <div class="text-center">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <!-- <i class="fa fa-3x fa-quote-left text-primary mb-4"></i> -->
                 <img class="img-fluid rounded-circle mx-auto mb-3" src="img/TNG.jpg" style="width: 80px; height: 80px" />
                 <h5 class="font-weight-bold m-0">TNG Programmer</h5>
                 <span>Team Codex</span>
               </div>
               <div class="text-center">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <!-- <i class="fa fa-3x fa-quote-left text-primary mb-4"></i> -->
                 <img class="img-fluid rounded-circle mx-auto mb-3" src="img/tc4x.png" style="width: 80px; height: 80px" />
                 <h5 class="font-weight-bold m-0">Trisakti Cyber Army</h5>
                 <span>Team Codex</span>
               </div>
               <div class="text-center">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <!-- <i class="fa fa-3x fa-quote-left text-primary mb-4"></i> -->
                 <img class="img-fluid rounded-circle mx-auto mb-3" src="img/Ems-rev.jpg" style="width: 80px; height: 80px" />
                 <h5 class="font-weight-bold m-0">EMS REVOLUTION</h5>
                 <span>Team Codex</span>
@@ -506,7 +492,7 @@
               </div>
             </div>
             <h5 class="font-weight-medium mb-4">EMS Revolution Website</h5>
-            <a class="btn btn-sm btn-outline-primary py-2" onclick="location.href='https://ems-links.netlify.app/'">Go to here</a>
+            <a class="btn btn-sm btn-outline-mkblue py-2" onclick="location.href='https://ems-links.netlify.app/'">Go to here</a>
           </div>
           <div class="col-lg-4 mb-5">
             <div class="position-relative mb-4">
@@ -517,15 +503,234 @@
               </div>
             </div>
             <h5 class="font-weight-medium mb-4">Apps Mod Website</h5>
-            <a class="btn btn-sm btn-outline-primary py-2" onclick="location.href='https://appscrck.netlify.app/'">Go to here</a>
+            <a class="btn btn-sm btn-outline-mkblue py-2" onclick="location.href='https://appscrck.netlify.app/'">Go to here</a>
           </div>
         </div>
       </div>
     </div>
     <!-- Blog End -->
+    <!-- Blog Start -->
+    <!-- <div class="container-fluid pt-5" id="blog">
+      <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+          <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">Love</h1>
+          <h1 class="position-absolute text-uppercase text-primary">All Page</h1>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mb-5">
+            <div class="position-relative mb-4">
+              <div class="box mk-box">
+              <div class="mk-overflow">
+                <div class="MkAboutPage" id="MkAboutMe">
+                  <h5 class="title-header">About Team</h5>
+                  <div class="list-links">
+                    <div class="list-content" onclick="YgK()">
+                      <h4>Yhoris Gervino</h4>
+                      <p>Founder Team</p>
+                    </div>
+                    <i class="bx bx-user mk-next"></i>
+                  </div>
+                  <div class="list-links MkAboutx" onclick="location.href='about/'">
+                    <div class="list-content">
+                      <h4>Marchell Kevandra</h4>
+                      <p>Founder Team</p>
+                    </div>
+                    <i class="bx bx-user mk-next"></i>
+                  </div>
+                  <div class="list-links" onclick="TyN()">
+                    <div class="list-content">
+                      <h4>Thyan Christian</h4>
+                      <p>Founder Team</p>
+                    </div>
+                    <i class="bx bx-user mk-next"></i>
+                  </div>
+                  <div class="list-links" onclick="JnG()">
+                    <div class="list-content">
+                      <h4>Juna Gnz</h4>
+                      <p>Leader Team</p>
+                    </div>
+                    <i class="bx bx-user mk-next"></i>
+                  </div>
+                  <div class="list-links" onclick="AgS()">
+                    <div class="list-content">
+                      <h4>Agus Capitall</h4>
+                      <p>Co Lead Team</p>
+                    </div>
+                    <i class="bx bx-user mk-next"></i>
+                  </div>
+                  <div class="list-links" onclick="AnD()">
+                    <div class="list-content">
+                      <h4>Andreas Editor</h4>
+                      <p>Co Lead Team</p>
+                    </div>
+                    <i class="bx bx-user mk-next"></i>
+                  </div>
+                </div>
+                <div class="MkAppModz">
+                  <h5 class="title-header">App Mods</h5>
+                  <div class="list-links" onclick="KmEmsA()">
+                    <div class="list-content">
+                      <h4>Kinemaster V1</h4>
+                      <p>Get Link</p>
+                    </div>
+                    <i class="bx bxs-download mk-next"></i>
+                  </div>
+                  <div class="list-links" onclick="KmEmsB()">
+                    <div class="list-content">
+                      <h4>Kinemaster V2</h4>
+                      <p>Get Link</p>
+                    </div>
+                    <i class="bx bxs-download mk-next"></i>
+                  </div>
+                  <div class="list-links" onclick="KmEmsC()">
+                    <div class="list-content">
+                      <h4>Kinemaster V3</h4>
+                      <p>Get Link</p>
+                    </div>
+                    <i class="bx bxs-download mk-next"></i>
+                  </div>
+                </div>
+                <div class="MkFams">
+                  <h5 class="title-header">Family</h5>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Community Tanker Solidarity</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Community Music Recorder</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Secret Never Surender</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Editor Miring Squad Girls</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>SPK Management</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>King Lyric Kinemaster</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Biak Rese Nation</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Design Project Squad</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Squad Geser Font</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Break Lyric Revolution</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Chell Ganz Team</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Jabar Lirik Squad</h4>
+                      <p>Family team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                </div>
+                <div class="MkTeams">
+                  <h5 class="title-header">Team Support</h5>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Tangerang Cyber Army</h4>
+                      <p>Support team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                  <div class="list-links">
+                    <div class="list-content">
+                      <h4>Trisakti Cyber Army</h4>
+                      <p>Support team</p>
+                    </div>
+                    <i class="bx bx-user-pin mk-next"></i>
+                  </div>
+                </div>
+                <div class="MkEntertaiment">
+                  <h5 class="title-header">Entertaiment</h5>
+                  <div class="list-links" onclick="MkEntx()">
+                    <div class="list-content">
+                      <h4>Movie Japanese</h4>
+                      <p>Entertaiment</p>
+                    </div>
+                    <i class="bx bxs-cat mk-next"></i>
+                  </div>
+                  <div class="list-links" onclick="MkEntxx()">
+                    <div class="list-content">
+                      <h4>Movie Drama</h4>
+                      <p>Entertaiment</p>
+                    </div>
+                    <i class="bx bxs-cat mk-next"></i>
+                  </div>
+                  <div class="list-links" onclick="MkEntxxx()">
+                    <div class="list-content">
+                      <h4>Movie Action</h4>
+                      <p>Entertaiment</p>
+                    </div>
+                    <i class="bx bxs-cat mk-next"></i>
+                  </div>
+                </div>
+                <div class="mkContacts">
+                  <p class="mkContactFooter">You can order design web in <a onclick="IntX()" class="mkCodexLinks">Mk Codex</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Blog End -->
 
     <!-- Contact Start -->
-    <div class="container-fluid py-5" id="contact">
+    <!-- <div class="container-fluid py-5" id="contact">
       <div class="container">
         <div class="position-relative d-flex align-items-center justify-content-center">
           <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6">Contact</h1>
@@ -562,7 +767,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- Contact End -->
 
     <!-- Footer Start -->
@@ -611,6 +816,7 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
