@@ -10810,3 +10810,8 @@ h6,
 .MkBoxList:hover h5 {
   color: black;
 }
+@media (max-width: 360px) {
+  .bottom-sheet {
+    width: 90%;
+  }
+}
